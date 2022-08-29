@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "SPS Commerce Options"
-permalink: /sps/
+title:  SPS Commerce Options
+parent: Tech Quickstart
+# permalink: /sps/
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update
 ---

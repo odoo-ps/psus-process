@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: default
 title:  "Third Party Installation Steps"
-permalink: /thirdpartyapps/
 date:   2022-08-29 10:19:51 -0700
-categories: jekyll update
+parent: Process
+nav_order: 1
+has_children: false
+# permalink: /thirdpartyapps/
 ---
 
 # PSUS Team install Flow:

@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Transfer SaaS To SH"
-permalink: /sasstransfer/
+# permalink: /sasstransfer/
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update
+parent: Process
+
 ---
 
 ## Customer must agree to the following:

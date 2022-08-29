@@ -2,6 +2,7 @@
 layout: post
 title:  "Development Differences"
 permalink: /differences/
+parent: Tech Quickstart
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update
 ---

@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Customizations"
-permalink: /customizations/
+# permalink: /customizations/
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update
+parent: Tech Quickstart
 ---
 
 # Customization

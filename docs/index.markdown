@@ -1,11 +1,11 @@
 ---
 layout: default
 title:  "Introduction"
-# permalink: /introduction/
+permalink: /
 # date:   2022-08-29 10:19:51 -0700
 # categories: jekyll update
-has_children: false
-nav_order: 0
+nav_order: 1
+# has_children: false
 ---
 
 # PSUS Tech - Who are we?

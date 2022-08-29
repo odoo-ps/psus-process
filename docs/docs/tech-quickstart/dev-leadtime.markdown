@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Development Lead Time"
-permalink: /leadtime/
+# permalink: /leadtime/
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update
+parent: Tech Quickstart
 ---
 
 This supplement document is designed to help you understand the development process and timeline which can be useful in setting expectations for customers and projecting delivery dates for development requests. This information is based on the amount of current customer development requests. 
