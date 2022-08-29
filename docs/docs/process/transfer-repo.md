@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Transfer SaaS To SH"
+title:  "Transfer Odoo Managed Repo to Customer"
 # permalink: /sasstransfer/
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update

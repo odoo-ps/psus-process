@@ -24,6 +24,7 @@ cd ps-custom_bis
 {% highlight ruby %}
 git checkout <branch_to_copy>
 {% endhighlight %}
+
 4. Change the remote url to your new repo
 
 {% highlight ruby %}
@@ -31,6 +32,7 @@ git remote set-url origin git@github.com:odoo-ps/psus-custom.git
 {% endhighlight %}
 
 5. Push the branch on your new repo
+
 {% highlight ruby %}
 git push
 {% endhighlight %}

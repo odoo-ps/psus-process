@@ -6,4 +6,5 @@ has_children: true
 permalink: /docs/quickstart
 ---
 
-# Process
+# Tech Quickstart
+# All Hail Cindey
