@@ -10,7 +10,7 @@ parent: Tech Quickstart
 # Customization
 Project Leader: Cindey Caine(CIC)
 
-Project Link: Ps - US Tech Quickstart
+Project Link: PSUS - Tech Quickstart
 
 Task Template(Make a Copy): https://www.odoo.com/web?#id=2580653&action=333&active_id=360&model=project.task&view_type=form&cids=3&menu_id=4720
 How to start a Development request:

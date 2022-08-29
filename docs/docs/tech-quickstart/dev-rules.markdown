@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Development Rules"
-permalink: /devrules/
+# permalink: /devrules/
+parent: Tech Quickstart
 date:   2022-08-29 10:19:51 -0700
 categories: jekyll update
+nav_order: 1
 ---
 
 # PSUS - Tech Quickstart Info/Policies

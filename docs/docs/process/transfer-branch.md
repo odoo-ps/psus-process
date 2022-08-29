@@ -32,7 +32,6 @@ git remote set-url origin git@github.com:odoo-ps/psus-custom.git
 {% endhighlight %}
 
 5. Push the branch on your new repo
-
 {% highlight ruby %}
 git push
 {% endhighlight %}
