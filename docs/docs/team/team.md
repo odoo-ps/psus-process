@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Process
+title: Team
 nav_order: 2
 has_children: true
-permalink: /docs/process
+permalink: /docs/process/team/
 ---
 
-# Process
+# Team
