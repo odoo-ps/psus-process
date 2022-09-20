@@ -2,14 +2,12 @@
 layout: post
 title:  "What do we do?"
 permalink: /team/work/
-date:   2022-08-29 10:19:51 -0700
 parent: Team
 nav_order: 1
-categories: jekyll update
 ---
 
 
-# PSUS Teach - Who are we?
+# What do we do?
 
 ## Why does PSUS Tech even exist?
 
@@ -17,15 +15,15 @@ Imagine you are a customer, you use Odoo for your company but you have specific 
 
 ## Services we provide
 
-1. [Pre-Sales](2.process.presales.general)
+1. [Pre-Sales](../processes/pre-sales/home.md)
    - Presales technical support refers to technical advice or estimate related activities that occur bedore sale has been closed
-2. [Upgrade & Migration & Maintenace](2.process.upgrade.general)
+2. [Upgrade & Migration & Maintenace](../processes/maintenance/home.md)
    - Upgrade refers to upgrading customer's instance/databse from version A to version B
    - Migration refers to process of moving customer from their old software solution to new software solution, i.e. moving customer from Quickbooks to Odoo. Upgrade is not equal to Migration
    - Maintenance refers to the process of fixing dev for which the customer is paying maintenance.
-3. [Technical Support](2.process.support.general)
+3. [Technical Support](../processes/tech-support/home.md)
    - Technical Support allows a customer/partner to use Success Packs hours to get technical consulting with Development Services Team
-4. [Quickstart Developement](2.process.qs.general)
+4. [Quickstart Developement](../processes/tech-quickstart/home.md)
    - Quickstart refers to any development we realise for the client.
 
 
@@ -35,6 +33,6 @@ Imagine you are a customer, you use Odoo for your company but you have specific 
 - We do not go above the **planned hours** without customer' consent
 - We maintain a good **communication** with the consultants and a professional communication with the clients
 - Our **timesheets** are up to date, clear and detailed
-- We do not do development on **repository** that is not owned by Odoo unless approval from JAM/CIC
+- We do not do development on **repository** that is not owned by Odoo unless approval from manager.
 - We are not the **bottleneck** (the customer / consultant is not waitting on our input) or we give an indication on the task on when we will act
 - Our development starts from the production **branch** (checkout from there) and the staging branch is as close as possible to production (when dev is deployed, you rebase staging on production)

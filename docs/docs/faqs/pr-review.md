@@ -2,10 +2,8 @@
 layout: post
 title:  "Pull request"
 permalink: /faqs/pr/
-date:   2022-08-29 10:19:51 -0700
 parent: FAQs
 nav_order: 4
-categories: jekyll update
 ---
 
 

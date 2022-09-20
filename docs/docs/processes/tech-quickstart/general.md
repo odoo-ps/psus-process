@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "How does quickstart work?"
-permalink: /docs/process/qs/general/
-date:   2022-08-29 10:19:51 -0700
+title:  How does it work?
+permalink: /docs/process/quickstart/general
 parent: Tech Quickstart
+grand_parent: Process
 nav_order: 1
-categories: jekyll update
 ---
 
 

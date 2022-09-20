@@ -2,10 +2,8 @@
 layout: post
 title:  "SPS"
 permalink: /faqs/sps/
-date:   2022-08-29 10:19:51 -0700
 parent: FAQs
 nav_order: 6
-categories: jekyll update
 ---
 
 

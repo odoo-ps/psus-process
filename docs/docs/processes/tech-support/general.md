@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "How does support work?"
-permalink: /docs/process/support/general/
-date:   2022-08-29 10:19:51 -0700
+title:  How does it work?
+permalink: /docs/process/support/general
 parent: Tech Support
+grand_parent: Process
 nav_order: 1
-categories: jekyll update
 ---
 
 

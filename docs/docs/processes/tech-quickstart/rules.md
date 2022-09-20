@@ -2,10 +2,9 @@
 layout: post
 title:  "Development rules"
 permalink: /docs/process/qs/rules/
-date:   2022-08-29 10:19:51 -0700
 parent: Tech Quickstart
+grand_parent: Process
 nav_order: 3
-categories: jekyll update
 ---
 
 

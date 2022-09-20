@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "How does upgrade work?"
-permalink: /process/upgrade/general/
-date:   2022-08-29 10:19:51 -0700
+title:  How does it work?
+permalink: /docs/process/maintenance/general
 parent: Maintenance
+grand_parent: Process
 nav_order: 1
-categories: jekyll update
 ---
 
 
@@ -16,7 +15,6 @@ categories: jekyll update
 
 
 # Rules
-
 
 
 # BELOW INFO TO BE CLEANED

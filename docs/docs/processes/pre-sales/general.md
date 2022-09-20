@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "How does pre-sales work?"
+title:  How does it work?
 permalink: /docs/process/pre-sales/general
-date:   2022-08-29 10:19:51 -0700
 parent: Pre-sales
+grand_parent: Process
 nav_order: 1
-categories: jekyll update
 ---
 
 

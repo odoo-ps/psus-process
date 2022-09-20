@@ -2,10 +2,8 @@
 layout: post
 title:  "SH"
 permalink: /faqs/sh/
-date:   2022-08-29 10:19:51 -0700
 parent: FAQs
 nav_order: 1
-categories: jekyll update
 ---
 
 

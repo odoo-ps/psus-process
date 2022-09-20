@@ -2,10 +2,9 @@
 layout: post
 title:  "Stages of a development"
 permalink: /docs/process/qs/lifecycle/
-date:   2022-08-29 10:19:51 -0700
 parent: Tech Quickstart
+grand_parent: Process
 nav_order: 2
-categories: jekyll update
 ---
 
 

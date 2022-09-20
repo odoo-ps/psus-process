@@ -2,10 +2,9 @@
 layout: post
 title:  "SaaS or SH"
 permalink: /docs/process/qs/saas-or-sh/
-date:   2022-08-29 10:19:51 -0700
 parent: Tech Quickstart
+grand_parent: Process
 nav_order: 4
-categories: jekyll update
 ---
 
 

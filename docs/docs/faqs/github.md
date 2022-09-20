@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Transfer branch to customer"
-permalink: /faqs/github/branches/
-date:   2022-08-29 10:19:51 -0700
+title:  "Github"
+permalink: /faqs/github/
 parent: FAQs
-nav_order: 5
 categories: jekyll update
 ---
 
 
-# BELOW INFO TO BE CLEANED
+[How to transfer branch to customer (SaaS]() <br />
+[How to transfer repo to customer (SH)]() <br />
+
 1. Create a copy of ps-custom in folder ps-custom_bis
 
 ```
