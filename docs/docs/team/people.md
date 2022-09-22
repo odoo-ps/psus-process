@@ -16,7 +16,7 @@ We are a team of about 60 developers, distributed in Buffalo, Mexico City and Sa
 ## Team members
 
 All members can easely be found in odoo.com
-
+And the team structure is described [here](https://docs.google.com/spreadsheets/d/1rxYiBnUIzRsGxTTwclsvOEytO-R7dlCzbG3Uzn63gTc/edit?usp=sharing)
 
 ## Team Leaders
 

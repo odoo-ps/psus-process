@@ -13,6 +13,8 @@ nav_order: 1
 
 Imagine you are a customer, you use Odoo for your company but you have specific needs that the product as it is doesn’t cover. This is where we come in. We will analyze your needs, estimate how much time it will take us, and do it. Now your workflow with Odoo is nice and smooth.
 
+A general introduction to our services can be found [here](https://docs.google.com/presentation/d/1c30R9L_ySD6kt3O8NMYCmOcJX9eFjJMeo4V9eM7NXcY/edit?usp=sharing)
+
 ## Services we provide
 
 1. [Pre-Sales](../processes/pre-sales/home.md)
