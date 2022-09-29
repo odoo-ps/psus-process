@@ -9,6 +9,6 @@ nav_order: 4
 
 # Peer review process
 
-The process is explainded [here](https://docs.google.com/document/d/1_enjUpFvKokhFPe35IUM9jsCdLv3pTxsSfACnKAn0Ho/edit?usp=sharing)
+The process is explained [here](https://docs.google.com/document/d/1_enjUpFvKokhFPe35IUM9jsCdLv3pTxsSfACnKAn0Ho/edit?usp=sharing)
 
 It was presented [here](https://docs.google.com/presentation/d/11dycRLfyHxE7WIgKqLR4Zmc69txwUR0zDAZDHqriMug/edit?usp=sharing)

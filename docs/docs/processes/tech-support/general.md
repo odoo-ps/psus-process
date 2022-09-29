@@ -29,7 +29,11 @@ nav_order: 1
   - Help expedite resolution of technical bug in development or bad data related issues.
   - Saas to SH platform change and New SH project creation
     - Customers must be on an Odoo version compatible with Odoo.sh listed [here](https://www.odoo.com/documentation/15.0/administration/maintain/supported_versions.html)
-    - Customer will need to upgrade to the next supported version, if a customer is on the latest version then they will need to wait for the next LTS release i.e. 15.2 will need to wait for v16
+    - Options if the customer is on a minor SaaS version:
+      - upgrade to the next LTS release (i.e. 14.2 -> 15.0)
+      - wait for the next LTS release if upgrading is not currently possible (i.e. 15.2 -> 16.0 versions relevant as of 9/2022)
+      - restart with a clean Sh db
+      - consultant can create a trial db on an LTS release through this [method](https://drive.google.com/file/d/1YDdEFaqiLIEv2jZHPEnFFx9mt1o27t3N/view), manually import all required information, then provide that trial db to us to migrate
   - Bug Fixes where customers do not pay maintenance
   - Partner code upgrades
 
