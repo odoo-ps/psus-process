@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Upgrades
-permalink: /docs/process/maintenance/general
+permalink: /docs/process/maintenance/upgrades
 parent: Maintenance
 grand_parent: Process
 nav_order: 2
