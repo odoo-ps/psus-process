@@ -19,9 +19,10 @@ nav_order: 2
 4. Put 3PA code on development branch
    1. [Modify the Manifest to cloc_exclude the 3PA module](https://www.odoo.com/documentation/15.0/developer/cli.html?highlight=cloc_exclude#with-the-database-option)
    2. Make sure the exclude is:
-      1. "cloc_exclude": [‘**/*’]
+      1. `"cloc_exclude": [‘**/*’]`
    3. Sometimes the 3PA may already have exclude but it might not be the all exclude like the snippet we need above ^
 5. Merge 3PA development branch into a Staging branch
+   1. You can check whether the lines have been excluded properly by running `odoo-bin cloc` in the odoo.sh shell, `-v`flag will show individual files if specific files need to be excluded
 6. Customer should Install(click install in Apps) and Test
 7. If customer approves, create PR from the 3PA development branch into Production
    1. Do NOT merge Staging into Production, staging might have other code that is not approved for production yet(custom code, other 3PA code).

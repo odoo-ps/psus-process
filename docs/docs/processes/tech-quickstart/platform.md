@@ -13,7 +13,7 @@ nav_order: 4
 
 | Saas | SH | On Premise |
 | ----------- | ----------- | ----------- |
-| no Python files (except __manifest__.py and __init__.py) | All file types okay | All file types okay
+| no Python files (except \__manifest__.py and \__init__.py) | All file types okay | All file types okay
 | All fields created in xml files as records | Fields created in python(prefered) or xml files(technically doable but not recommended) | Fields created in python(prefered) or xml files(technically doable but not recommended)
 | Import(button) to install Custom Modules | Github manages code to install Custom Modules | Give Partner Module Zip
 | Test in Trial Database | Test in Staging Branch | Customer Installs/Tests by themselves
