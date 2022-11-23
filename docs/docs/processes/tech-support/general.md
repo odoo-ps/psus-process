@@ -32,8 +32,9 @@ nav_order: 1
     - Options if the customer is on a minor SaaS version:
       - upgrade to the next LTS release (i.e. 14.2 -> 15.0)
       - wait for the next LTS release if upgrading is not currently possible (i.e. 15.2 -> 16.0 versions relevant as of 9/2022)
-      - restart with a clean Sh db
-      - consultant can create a trial db on an LTS release through this [method](https://drive.google.com/file/d/1YDdEFaqiLIEv2jZHPEnFFx9mt1o27t3N/view), manually import all required information, then provide that trial db to us to migrate
+      - create a clean Sh db
+         - (optionally) consultant can manually import the required records from Saas db to Sh
+            - (warning) it may not be possible to import all records
   - Bug Fixes where customers do not pay maintenance
   - Partner code upgrades
 
