@@ -37,6 +37,20 @@ nav_order: 3
 
 1. Create a new repo named `psus-companyname` owned by [odoo-ps](https://github.com/odoo-ps) (if you don’t have access, talk to Jigar).
     1. Repo settings: Private repo, initialize with readme, and add .gitignore for Python.
+        1. copy paste into readme and update company name
+        ```
+        # Company Name (repo name)  
+        ## Branches:  
+        - SH Production Branch: **_production_**
+        - Sh Staging (You can only have three staging branches):
+          - 1st staging Branch: **_sandbox_**
+          - 2nd staging Branch: **_dev-staging_**
+        - Development (You can have as many development branches as you like):
+          - 1st Development Branch: \*\*\*\*  
+        ## Code of Conduct  
+        - **IMPORTANT : DO NOT COMMIT anything in the _production_ branch, because _production_ is _Production Instance_**
+        - If you want to start development branch fork new branch form _production_ or _staging_ branches and and SH will automatically start new development build.
+        ```
 2. Go to Settings/Collaborators/Add Team and add PSUS (US PSUS Team), give them “admin” access.
 3. In the master branch add requirements.txt (can be empty to start with), copy over contents into readme.md.
 4. Add the consultant only to the sh-project
