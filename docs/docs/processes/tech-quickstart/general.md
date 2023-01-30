@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How does it work?
-permalink: /docs/process/quickstart/general
+permalink: /docs/process/qs/general
 parent: Tech Quickstart
 grand_parent: Process
 nav_order: 1

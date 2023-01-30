@@ -4,7 +4,7 @@ title: Tech Quickstart
 nav_order: 1
 parent: Process
 has_children: true
-permalink: /docs/process/quickstart
+permalink: /docs/process/qs
 ---
 
-# Maintenance
+# Tech Quickstart
