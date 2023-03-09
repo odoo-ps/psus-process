@@ -96,17 +96,17 @@ The customer has three options if they want us to do a migration from Saas to SH
 4. Go to Subscriptions and verify that the user’s subscription is linked to one 
 database. 
 
-## Migrating an existing SH to a new SH project
+## Existing SH to a new SH project steps
 This can happen if the customer needs to move from one SH(github) to another SH(new github) with the same subscription.
 
 ### Option 1: Customer Owned SH to PSUS Owned SH
 1. Ask the customer to agree to the following:
-   ```text
-   - Customer will NOT have access to the SH project and Github Repository
-   - PSUS Technical Team will maintain all aspects of the project and repository
-   - Third Party Apps can NOT be installed aside from the following ecommerce apps:
-     - Shopify/Woocommerce/Magento connectors
-   ```
+```text
+- Customer will NOT have access to the SH project and Github Repository
+- PSUS Technical Team will maintain all aspects of the project and repository
+- Third Party Apps can NOT be installed aside from the following ecommerce apps:
+  - Shopify/Woocommerce/Magento connectors
+```
 2. Ask the customer to transfer their github repository to ```cic-odoo```
    1. Have them follow these [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository#transferring-a-repository-owned-by-your-personal-account)
 3. Tell CIC to be on the lookout for a repo transfer
@@ -185,4 +185,4 @@ TODO
 1. Check if customer has custom developments done for them on Saas
 2. If so, they should have a branch [here](https://github.com/odoo/ps-custom) or a repo [here](https://github.com/odoo-ps)
 3. These devs should be moved to the customer’s new repo
-4. In ir_module_module, these modules will need to be marked as non-imported modules so they will be properly updated in the future
+4. In ir_module_module, these modules will need to be marked as non-imported modules, so they will be properly updated in the future
