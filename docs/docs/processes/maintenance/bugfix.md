@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Maintenance(Bug-Fix)
+title:  Bug-Fix
 permalink: /docs/process/maintenance/bugfix
 parent: Maintenance
 grand_parent: Process
 nav_order: 3
 ---
 
-## Maintenance(Bug-Fix)
+## Bug-Fix
 
   - Maintenance covers Bug fixes for development done based on specifications on the tasks under project PSUS - Tech Quickstart for which customer is paying ongoing maintenance.
   - Be careful of scope creep (Anything outside of original spec on ‘PSUS - Tech Quickstart’ task is scope creep)
