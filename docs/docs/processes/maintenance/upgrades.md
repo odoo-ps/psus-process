@@ -30,4 +30,4 @@ If customer is not paying maintenance fee ($5/Hour) or LOC MRR, then it’s not 
 ### How to start code upgrade request
 - Go to [Odoo Support Page](https://odoo.com/help) to report an Upgrade Issue.
   - Select ticket type: An issue related to my future upgrade(I am testing an upgrade)
-    ![Test upgrade issue](upgrade_issue_ticket.png)
+    ![Test upgrade issue](test_upgrade_issue.png)
