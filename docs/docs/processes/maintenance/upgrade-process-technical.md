@@ -6,7 +6,7 @@ parent: Maintenance
 grand_parent: Process
 nav_order: 2
 ---
-
+![Upgrade Steps](upgrade_technical_steps.png)
 ## First step is to find the code of the project depending of the platform
 
 SAAS
