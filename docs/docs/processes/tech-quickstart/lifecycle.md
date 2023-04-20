@@ -1,53 +1,81 @@
 ---
 layout: post
-title:  "Stages of a development"
+title:  "Kanban Stages"
 permalink: /docs/process/qs/lifecycle/
 parent: Tech Quickstart
 grand_parent: Process
 nav_order: 2
 ---
 
+# Kanban Stages
 
-# BELOW INFO TO BE CLEANED
+## Requirements
+**Time in stage:** 2-4+ weeks
 
-# Requirements
-- **Time in weeks**: 2
-
-- **Time notes**:
-  - Consultant Finished Specification
+**Time notes:** 
+  - BSA Finished Specification
   - Request Approval from Team Lead
-
-- **Usage notes**:
+  - 
+**Usage notes**:
   - All new development request are created in this stage.
-  - Each task requires review from your Coach/Team Leader/Task reviewer, so while your task is ready log note and tag the one responsible to review the task
+  - Each task requires review from BSA's Coach/Team Leader/Task, so when the task is ready BSA their Team Lead to review the task
 
-- **Responsible**:
-  - **PS functional**: Consultant and Consultant's Coach /  Team Leader
-  - **PS Technical**: Technical Specification Reviewer
+**Responsible**:
+  - **PS Functional**: BSA and BSA's Coach / Team Leader
 
-- **Task color**:
+**Kanban State Color**:
 
-  - **Grey**: Functional consultant is working on requirements specification and not ready for review.
+  - **Grey**: BSA is working on requirements specification and not ready for review.
 
   - **Red**: The requirements specification has been updated and ready for reviewing by responsible.
 
-  - **Green**: Responsible has approved the development and Technical team will review this now.
+  - **Green**: BSA Team Lead has approved the development and Technical team will review this now.
 
-- **Resulting Stages**:
-  - If approved => Scoping
+**Resulting Stages**:
+  - If approved > Scoping
 
-  - Otherwise => Cancelled
+  - Otherwise > Cancelled
 
-- **Billing to customer**: None
+**Billing to customer**: BSA should bill customer on the QS task directly for creating the spec
+
+
+## Tech Review
+**Time in stage:** 1 week
+
+**Time notes:** 
+  - May take longer if we need more details or followup from BSA
+
+**Usage notes**:
+  - This stage can be used by technical reviewer for getting in this stage to estimate and gathering additional information
+  - BSA will need to followup on required subjects asked
+
+**Responsible**:
+  - **PS Functional**: BSA and BSA's Coach / Team Leader
+
+**Kanban State Color**:
+
+  - **Grey**: BSA is working on requirements specification and not ready for review.
+
+  - **Red**: The requirements specification has been updated and ready for reviewing by responsible.
+
+  - **Green**: BSA Team Lead has approved the development and Technical team will review this now.
+
+**Resulting Stages**:
+  - If approved > Scoping
+
+  - Otherwise > Cancelled
+
+**Billing to customer**: BSA should bill customer on the QS task directly for creating the spec
+
 
 # Tech review
 - **Time in weeks** : 1
 
-- **Time notes**: May take longer if we need more details or followup form Consultant
+- **Time notes**: May take longer if we need more details or followup from BSA
 
 - **Usage notes**:
   - This stage can be used by technical reviewer for putting task in this stage while they are reviewing it and gathering additional information
-  - Consultant will need to followup on required subjects asked
+  - BSA will need to followup on required subjects asked
 
 - **Send email or log note**:
 
@@ -56,10 +84,10 @@ nav_order: 2
   - Send to Customer:
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task)
+  - **PS functional**: BSA (Reviewer on task)
   - **PS Technical**: Technical Specification Reviewer
 
-- **Task color**:
+- **Kanban State Color**:
 
   - **Grey**: Technical Spec Reviewer
 
@@ -93,18 +121,18 @@ nav_order: 2
   - Send to Customer:
 
 - **Responsible**:
-  - **PS functional**: Consultant and Consultant's Coach /  Team Leader
+  - **PS functional**: BSA and BSA's Coach /  Team Leader
   - **PS Technical**: Technical Specification Reviewer
 
-- **Task color**:
+- **Kanban State Color**:
 
   - **Grey**: Customer is working on decision making (weather this development will fit in project scope or not)
 
   - **Red**:
-    - Something is wrong and requires attention from Customer or Functional Consultant.
-    - The PS Technical responsible will move task to this state and will let consultant know via chatter communication
+    - Something is wrong and requires attention from Customer or BSA.
+    - The PS Technical responsible will move task to this state and will let BSA know via chatter communication
 
-  - **Green**: Task is ready for development. When consultant here back from customer and if task is approved then, the consultant should mark is green indicating task is ready  for development
+  - **Green**: Task is ready for development. When BSA here back from customer and if task is approved then, the BSA should mark is green indicating task is ready  for development
 
 - **Resulting Stages**:
   - If approved => Planning
@@ -131,20 +159,20 @@ nav_order: 2
   - Send to Customer: [PSUST-C01] Your request for development has been created
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
   - **PS Technical**: Developer (Assigned on task) or Team Leader
 
-- **Task color**:
+- **Kanban State Color**:
 
   - **Grey**: Task is ready for development and requires planning action.
 
   - **Red**:
-    - Requires attention from Customer or Functional Consultant.
-    - The PS Technical responsible will move task to this state and will let consultant know via chatter communication.
+    - Requires attention from Customer or BSA.
+    - The PS Technical responsible will move task to this state and will let BSA know via chatter communication.
 
   - **Green**:
     - Task has been added to the development queue and developer will pick task based on their availablity and workload.
-    - When task is planned the functional consultant and customer will be notified by email which will include hours and the final specification.
+    - When task is planned the BSA and customer will be notified by email which will include hours and the final specification.
 
 - **Resulting Stages**:
 
@@ -172,22 +200,22 @@ nav_order: 2
   - Send to Customer: [PSUST-C02]  Your development has started
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
   - **PS Technical**: Developer (Assigned on task)
 
-- **Task color**:
+- **Kanban State Color**:
 
   - **Grey**:
     - Developer is working on developing the feature.
-    - When a task is moved to this stage, the developer will notify functional consultant and customer with email suggesting that the development has been stated.
+    - When a task is moved to this stage, the developer will notify BSA and customer with email suggesting that the development has been stated.
 
   - **Red**:
-    - Task is blocked and requires more details from the customer or consultant.
+    - Task is blocked and requires more details from the customer or BSA.
     - Developer will notify functional responsible about this."
 
   - **Green**:
     - Development is ready for UAT  and task can be moved to Functional Review stage now.
-    - when task ready developer will notify functional consultant and customer with email that ask is ready for testing with URL of instance where it can be tested."
+    - when task ready developer will notify BSA and customer with email that ask is ready for testing with URL of instance where it can be tested."
 
 - **Resulting Stages**:
   - When ready => UAT
@@ -211,10 +239,10 @@ nav_order: 2
   - Send to Customer: [PSUST-C03]  Your development is ready for user acceptance testing (UAT)
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
   - **PS Technical**: Developer (Assigned on task)
 
-- **Task color**:
+- **Kanban State Color**:
 
   - **Grey**: Customer is doing user acceptance testing .
 
@@ -223,7 +251,7 @@ nav_order: 2
   - **Green**:
 
     - Task has been passed the UAT from customers end and ready for deploying.
-    - Upon receipt of approval consultant will mark such task to green, indicating task is ready for deploying.
+    - Upon receipt of approval BSA will mark such task to green, indicating task is ready for deploying.
 
 - **Resulting Stages**:
 
@@ -249,7 +277,7 @@ nav_order: 2
   - Send to Customer: [PSUST-C04] Your development has been deployed in production
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
   - **PS Technical**: Project Leader
 
 
@@ -264,12 +292,12 @@ nav_order: 2
   - Odoo has successfully delivered what was asked.
 
   - Maintenance and Migration
-    - For Any future bug, functional consultant is required to create new task in ""PS - US Technical Support"" with this is in reference.
-    - For Any future feature enhancements, functional consultant is required to create new task in ""Ps - US SaaS Customization"" with this is in reference and change request.
-    - For any future version migration functional consultant is required to create new task in ""PS - US Technical Support"" with this is in reference.
+    - For Any future bug, BSA is required to create new task in ""PS - US Technical Support"" with this is in reference.
+    - For Any future feature enhancements, BSA is required to create new task in ""Ps - US SaaS Customization"" with this is in reference and change request.
+    - For any future version migration BSA is required to create new task in ""PS - US Technical Support"" with this is in reference.
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
   - **PS Technical**: Team Leader and Developer (Assigned on task)
 
 - **Resulting Stages**:
@@ -292,7 +320,7 @@ nav_order: 2
   - Send to Customer:
 
 - **Responsible**:
-  - **PS functional**: Consultant (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
   - **PS Technical**: Developer (Assigned on task) or Team Leader
 
 

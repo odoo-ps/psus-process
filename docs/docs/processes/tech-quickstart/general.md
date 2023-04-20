@@ -23,7 +23,7 @@ nav_order: 1
 
 ## Development Requests
 - All the development requests are managed under project “PSUS - Tech Quickstart”.
-  - Process Leader : Cindey ([cic@Odoo.com](mailto:cic@Odoo.com))
+  - Process Leader : Cindey([cic@Odoo.com](mailto:cic@Odoo.com)) + Ali([aal@Odoo.com](mailto:aal@Odoo.com))
 - See if development request can be avoided by:
   - Making customers try/use OOTB (out-of-the-box) Odoo
   - Proposing work around (project app can be used in many different ways)
@@ -143,16 +143,6 @@ They will Add the Billing Maintenance Fee(MRR) to the Subscription
 Only if it is required
 If there are any Issues After the Development is installed to Production
 See Maintenance Section Below
-
-
-
-# We need to clean this
-
-[Saas and SH](2.process.qs.saas-or-sh) <br/>
-[Rules](2.process.qs.saas-or-sh) <br/>
-[Lifecycle](2.process.qs.saas-or-sh) <br/>
-
-
 
 # Customization
 Tasks that can be done by the functional consultant. Functional consultants should know how to perform all these tasks.
