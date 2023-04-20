@@ -4,7 +4,7 @@ title:  GitHub Repo Transfer
 permalink: /docs/process/maintenance/ps-custom-to-psus-custom
 parent: Maintenance
 grand_parent: Process
-nav_order: 2
+nav_order: 6
 ---
 
 ### Transfer branch from ps-custom to new psus-custom

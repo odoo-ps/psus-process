@@ -4,7 +4,7 @@ title:  Code Upgrades
 permalink: /docs/process/maintenance/upgrades
 parent: Maintenance
 grand_parent: Process
-nav_order: 2
+nav_order: 3
 ---
 
 # Code Upgrade
