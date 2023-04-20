@@ -214,7 +214,7 @@ Starting January 1st 2023, we now timesheet all the time spent on Analysis(worki
     1. If the task is already assigned, that means someone else is already working/worked on it.
 2. Assign yourself to the Development Task 
 3. Check that Reviewer, Parent Task, Sale Order Item, and Subscription Fields are filled out.
-   1. If not, ask the Consultant to fill them out before giving the final estimate. 
+   1. If not, ask the BSA to fill them out before giving the final estimate. 
    2. Or you can fill it out yourself if it's quick, and you are certain they are the right values.
 4. Use this Guide to do an Estimation + PS tool. 
    1. Use the New ps-tool to do the estimation
@@ -234,7 +234,7 @@ Starting January 1st 2023, we now timesheet all the time spent on Analysis(worki
 11. If you are new to doing Estimates, keep the task in the Kanban Stage “Tech Review” and mark the Kanban color to Green.
     1. A senior team member will review the estimate and let you know if any changes need to be made or if you can send out the estimate. 
 12. Log a note with the template “LN01”. 
-    1. Make sure Reviewer is set to the Consultant
+    1. Make sure Reviewer is set to the BSA
     2. Important: Add the “(~ X LOC / Odoo Managed SH Required/Not Required)” part somewhere in the Log. Paste it into the template. 
 13. Move the task to “Scoping” Kanban Stage, you can keep yourself assigned to the task if you want to do follow ups. 
 
@@ -249,7 +249,7 @@ Starting January 1st 2023, we now timesheet all the time spent on Analysis(worki
       2. If NOT Odoo Managed: 
          1. **!!Talk to CIC before continuing!!**
    2. If Customer does NOT Have SH but dev Requires SH:
-      1. Remind the consultant that the customer needs SH to continue, and they must migrate
+      1. Remind the BSA that the customer needs SH to continue, and they must migrate
       2. If they need help tell them we can assist, and they can make a duplicate of the tech ticket
    3. Block the ticket Red until they migrate to SH
 3. If customer’s Dev is approved to be on Saas:
