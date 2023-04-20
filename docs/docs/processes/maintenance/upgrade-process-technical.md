@@ -29,7 +29,7 @@ nav_order: 2
 > * Remove already merged dev branches.
 > * Make staging branches ISO prod when necessary.
 
-## Step-by-stap process
+## Step-by-step process
 
 1. Make sure there is no ongoing development exists in _PSUS - Tech Quickstart_ for customer.
 2. Gather all the information about the project.

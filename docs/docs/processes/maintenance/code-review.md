@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Code Reviews
-permalink: /docs/process/maintenance/code-review
+permalink: /docs/process/maintenance/code-review[WIP]
 parent: Maintenance
 grand_parent: Process
 nav_order: 4
