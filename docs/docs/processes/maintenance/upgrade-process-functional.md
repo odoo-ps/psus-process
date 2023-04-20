@@ -22,8 +22,9 @@ nav_order: 2
 8. Report any issues post production upgrade via odoo support.  
   ![Post Upgrade Issue](post_upgrade_issue.png)
 
-
-![Upgrade Process ](upgrade_process.png)  
+  
+  
+  ![Upgrade Process ](upgrade_process.png)  
 
 
 
