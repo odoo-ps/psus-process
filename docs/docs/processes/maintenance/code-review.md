@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 
-### Code review
+## Code review
 
 - If customer doesn’t have code developed from Odoo Inc.(i.e. 3PA, DIY Devs, Partner Devs)
   - Events that result in this situation.

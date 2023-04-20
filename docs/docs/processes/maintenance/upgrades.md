@@ -7,7 +7,7 @@ grand_parent: Process
 nav_order: 2
 ---
 
-## Code Upgrade
+# Code Upgrade
 
 - Code Upgrade covers upgrade of the code to newer version of Odoo based on specification on the tasks under project PSUS - Tech Quickstart and paying maintenance actively.
   - If target version has some feature dropped/removed and If technical team used those feature in development then developers will try their best to make it compatible to the target version.
@@ -17,7 +17,7 @@ nav_order: 2
   - Request code upgrade at the same time of requesting test upgrade.
 
 ### What if the customer is not paying Maintenance for a PSUS development?
-If customer is not paying maintenance fee ($5/Hour) or LOC MRR, then it’s not covered under Maintenance, hence we can not provide the code upgrade service.
+If customer is not paying maintenance fee ($5/Hour) or LOC MRR, then it’s not covered under Maintenance, hence we can not provide the code upgrade service.  
 **Customer has the following options in that case:**
 - Customer can do the upgrade themselves
 - Customer can work with a Partner to upgrade

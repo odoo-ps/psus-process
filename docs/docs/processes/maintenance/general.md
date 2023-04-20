@@ -10,19 +10,13 @@ nav_order: 1
 - Project Manager: **Keyur Gajjar(KGA)**
 
 # Services
-- Code Upgrade
-- Code Reviews
-- Upgrade Issues
-- Bug Fix
-
-# How does the pipe works
-
-
-# Rules
-
-
+- [Bug-Fix](bugfix)
+- [Code Upgrade](upgrade-process-technical.md)
+- [Code Reviews](code-review.md)
+- [Upgrade Issues]
 ## Upgrade vs Migration
 
 | Upgrade | Migration |
 | ---- | ---- |
 | - Switching to newer version of Odoo <br> If the databse contains custom modules it is a two step process <br> 1. Standard Database Upgrade <br> 2. Custom code upgrade | - Moving from another System/ERP to Odoo |
+
