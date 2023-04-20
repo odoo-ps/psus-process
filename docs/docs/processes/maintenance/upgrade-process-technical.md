@@ -4,7 +4,7 @@ title:  Upgrade Process[Technical]
 permalink: /docs/process/maintenance/upgrade-process-technical
 parent: Maintenance
 grand_parent: Process
-nav_order: 2
+nav_order: 5
 ---
 ![Upgrade Steps](upgrade_technical_steps.png)
 ### First step is to find the code of the project depending of the platform  

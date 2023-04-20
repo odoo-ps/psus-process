@@ -4,7 +4,7 @@ title:  Bug-Fix
 permalink: /docs/process/maintenance/bugfix
 parent: Maintenance
 grand_parent: Process
-nav_order: 3
+nav_order: 2
 ---
 
 ## Bug-Fix

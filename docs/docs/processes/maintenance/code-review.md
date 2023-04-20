@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Code Reviews
-permalink: /docs/process/maintenance/code-review[WIP]
+title:  Code Reviews[WIP]
+permalink: /docs/process/maintenance/code-review
 parent: Maintenance
 grand_parent: Process
-nav_order: 4
+nav_order: 6
 ---
 
 

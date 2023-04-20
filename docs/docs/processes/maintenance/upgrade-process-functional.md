@@ -4,7 +4,7 @@ title:  Upgrade Process[Functional]
 permalink: /docs/process/maintenance/upgrade-process-functional
 parent: Maintenance
 grand_parent: Process
-nav_order: 2
+nav_order: 4
 ---  
 # Upgrade Process 
 
