@@ -7,27 +7,29 @@ grand_parent: Process
 nav_order: 2
 ---
 ![Upgrade Steps](upgrade_technical_steps.png)
-## First step is to find the code of the project depending of the platform
+### First step is to find the code of the project depending of the platform  
+  
+  
+* **[SAAS]**
 
-SAAS
+  * The code should either be on [odoo-ps/psus-custom](https://github.com/odoo-ps/psus-custom) or [odoo/ps-custom](https://github.com/odoo/ps-custom)
+  * Look for a branch with the version and name of the customer (there might be more than one branch for the same customer)
+  * The code for the modules might also be in more than one branch (there could be one branch per module)
+  * If the code is in more than one branch, keep the latest code of every particular module. **ADVISE:** Merge them into one unique branch for that customer in that version.
+  * For upgrades from SAAS to SAAS:
+    If the branch is on **/odoo/ps-custom** move it to **/odoo-ps/psus-custom**.Example on how to do it [here](ps-custom-to-psus-custom).
 
-* The code should either be on [odoo-ps/psus-custom](https://github.com/odoo-ps/psus-custom) or [odoo/ps-custom](https://github.com/odoo/ps-custom)
-* Look for a branch with the version and name of the customer (there might be more than one branch for the same customer)
-* The code for the modules might also be in more than one branch (there could be one branch per module)
-* If the code is in more than one branch, keep the latest code of every particular module. **ADVISE:** Merge them into one unique branch for that customer in that version.
-* For upgrades from SAAS to SAAS:
-If the branch is on **/odoo/ps-custom** move it to **/odoo-ps/psus-custom**.Example on how to do it [here](ps-custom-to-psus-custom).
-
-SH
-* The code should be on a repo in <strong>https://github.com/odoo-ps</strong>
-* You can find it on the Odoo SH project page.
-* For projects moved from SAAS to SH without migrating their modules, some/all of the code could still be on [odoo-ps/psus-custom](https://github.com/odoo-ps/psus-custom) or [odoo/ps-custom](https://github.com/odoo/ps-custom)
+* **[SH]**
+  * The code should be on a repo in <strong>https://github.com/odoo-ps</strong>
+  * You can find it on the Odoo SH project page.
+  * For projects moved from SAAS to SH without migrating their modules, some/all of the code could still be on [odoo-ps/psus-custom](https://github.com/odoo-ps/psus-custom) or [odoo/ps-custom](https://github.com/odoo/ps-custom)
 > **Recommendations**
 >
 > For SH projects, clean the repo branches as much as possible.
 > * Remove already merged dev branches.
-> * Make staging branches ISO prod when nocessary.
+> * Make staging branches ISO prod when necessary.
 
+## Step-by-stap process
 
 1. Make sure there is no ongoing development exists in _PSUS - Tech Quickstart_ for customer.
 2. Gather all the information about the project.
