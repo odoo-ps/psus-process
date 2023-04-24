@@ -27,6 +27,8 @@ At the Professional Services Department, we think that every minute spent for th
       - PSUS GAP Analysis
       - PSUS Misc.
       - PSUS Quickstart
+      - PSUS - Maintenance
+      - Upgrade Projects
       - Partner Success
       - Big projects (different invoicing policy)
 Remember: A pack is a task within these projects
@@ -79,14 +81,18 @@ Examples: Sick leave, Doctor Appointments, Vacation
 The developments requested by customers
 Examples: Scripts, Business Flow Customization, Access Rights, Custom Fields, etc.
 
-### PSUS - Maintenance & Migration
+### PSUS - Maintenance
 - [Trigram]Customer Name : Bug Issue
 The bugs/issues with development requested by customers
 
 Examples: Flow doesn’t work, Wrong Behavior, Tracebacks, etc.
 
-- [Trigram]Customer Name : vXX.X(platform) to vYY.Y(platform)
-The code migration requested by customers
+- Upgrade issues created by customer from odoo.com/help.
+
+### Upgrade Projects
+- [UP]Customer Name [XX.X -> YY.Y](platform)
+Umbrella task for overall upgrade of a cusomer from version XX.X  to YY.Y. 
+Consist of a subtasks(Upgrade Issues) in Help, PSUS - Maintenance, Upgrade issues project.
 
 Examples: Moving from v11 to v14, Saas or SH customers
 
