@@ -92,7 +92,7 @@ Examples: Flow doesn’t work, Wrong Behavior, Tracebacks, etc.
 ### Upgrade Projects
 - [UP]Customer Name [XX.X -> YY.Y](platform)
 Umbrella task for overall upgrade of a cusomer from version XX.X  to YY.Y. 
-Consist of a subtasks(Upgrade Issues) in Help, PSUS - Maintenance, Upgrade issues project.
+Consist of subtasks(Upgrade Issues) in Help, PSUS - Maintenance, Upgrade Issues project.
 
 Examples: Moving from v11 to v14, Saas or SH customers
 
