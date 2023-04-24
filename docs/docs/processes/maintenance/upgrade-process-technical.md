@@ -17,7 +17,7 @@ nav_order: 5
   * The code for the modules might also be in more than one branch (there could be one branch per module)
   * If the code is in more than one branch, keep the latest code of every particular module. **ADVISE:** Merge them into one unique branch for that customer in that version.
   * For upgrades from SAAS to SAAS:
-    If the branch is on **/odoo/ps-custom** move it to **/odoo-ps/psus-custom**.Example on how to do it [here](ps-custom-to-psus-custom).
+    If the branch is on **/odoo/ps-custom** move it to **/odoo-ps/psus-custom**.Example on how to do it [here](/faqs/github/).
 
 * **[SH]**
   * The code should be on a repo in <strong>https://github.com/odoo-ps</strong>
