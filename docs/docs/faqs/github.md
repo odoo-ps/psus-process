@@ -10,6 +10,7 @@ categories: jekyll update
 [How to transfer branch to customer (SaaS)]()  
 [How to transfer repo to customer (SH)]()  
 
+### Transfer branch from ps-custom to new psus-custom  
 1. Create a copy of ps-custom in folder ps-custom_bis
 ```sh
 git clone git@github.com:odoo/ps-custom.git ps-custom_bis 
