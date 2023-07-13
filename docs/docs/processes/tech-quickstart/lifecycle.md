@@ -10,15 +10,19 @@ nav_order: 2
 # Kanban Stages
 
 ## Requirements
+**Description:** This stage is the start of the Tech Quickstart flow. Developers do not need to do any action in this stage. In this stage, the BSA will make a copy of the Development template and write the development spec in the description. Once the spec is done, the BSA will ask their Team Leader to Review and approve the development(Kanban State Green). 
+
+The Project Leader will then review the Greened tasks. They check the following fields are set: Parent Task, Sale Order Item, Subscription, and Reviewer. The Project Leader will also review the feasibility of the development. If the specification is missing information or is not a suitable development, the Project Leader may ask the BSA for more information, to change certain parts of the spec or may even reject the development. If we reject the development we will provide reasons why and ideally provide an alternate solution or recommend them to work with to a partner.
+
 **Time in stage:** 2-4+ weeks
 
 **Time notes:** 
   - BSA Finished Specification
   - Request Approval from Team Lead
-  - 
+
 **Usage notes**:
   - All new development request are created in this stage.
-  - Each task requires review from BSA's Coach/Team Leader/Task, so when the task is ready BSA their Team Lead to review the task
+  - Each task requires review from BSA's Coach/Team Leader/Task, so when the task is ready the BSA's Team Lead will be pinged to review the task. 
 
 **Responsible**:
   - **PS Functional**: BSA and BSA's Coach / Team Leader
@@ -29,10 +33,10 @@ nav_order: 2
 
   - **Red**: The requirements specification has been updated and ready for reviewing by responsible.
 
-  - **Green**: BSA Team Lead has approved the development and Technical team will review this now.
+  - **Green**: BSA Team Lead has approved the development and Project Lead will review this now.
 
 **Resulting Stages**:
-  - If approved > Scoping
+  - If approved > Tech Review
 
   - Otherwise > Cancelled
 
@@ -40,21 +44,28 @@ nav_order: 2
 
 
 ## Tech Review
+**Description:** Once the Project Leader reviews and approves the development spec, they will move it to the Tech Review Kanban Stage. The Task will start in the unassigned Gray state. These tasks are ready for estimate. Anyone who is 1+ year can work on Estimation. We will timesheet directly on the task for the analysis spent on the Estimation. See the [Estimation]() section for more information on the Estimation process.
+
+After the Developer has finished the estimation, they will change the kanban state to Green. Then the Project Leader will review the estimation. If it needs some changes or clarification, the Project Leader will ask the Developer some questions or give suggestions. 
+
+If the Estimation is good, the Project Leader will approve the Estimation and move the task to Scoping.
+
 **Time in stage:** 1 week
 
 **Time notes:** 
-  - May take longer if we need more details or followup from BSA
+  - May take longer if we need more details/followup from BSA or if the spec is large
 
 **Usage notes**:
   - This stage can be used by technical reviewer for getting in this stage to estimate and gathering additional information
-  - BSA will need to followup on required subjects asked
+  - BSA will need to followup on required questions/clarifications asked
 
 **Responsible**:
   - **PS Functional**: BSA and BSA's Coach / Team Leader
+  - **PS Technical**: Developer/ Project Leader
 
 **Kanban State Color**:
 
-  - **Grey**: BSA is working on requirements specification and not ready for review.
+  - **Grey**: Task is ready for Estimation
 
   - **Red**: The requirements specification has been updated and ready for reviewing by responsible.
 
