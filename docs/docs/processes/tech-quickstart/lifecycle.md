@@ -93,7 +93,6 @@ If they do not approve of the development, the project leader will move the deve
   - When a request is cancelled, the initial planned hours will be set to zero so parent task will not show change of hours.
 
 **Send email or log note**:
-
   - Log note: [PSUST-LN02] Scoping Estimate Reminder (Use for internal note only)
     - only the Project leader sends this out to remind the BSA of the estimate
 
@@ -119,7 +118,11 @@ If they do not approve of the development, the project leader will move the deve
 
 ## Planning
 **Description:** Once the development has approval from the customer(usually written and attached to the task), the Project Leader moves the task to the Planning stage.
-If the task is ready to start with PSUS repo ownership and enough hours on the pack to cover the estimate, the Project Leader will change the kanban state color to Green. Greened unassigned tasks can be taken to work on. Exception: For very large developments, newer developers must talk to the Project Leader before taking them. 
+If the task is ready to start with PSUS repo ownership and enough hours on the pack to cover the estimate, the Project Leader will change the kanban state color to Green. Greened unassigned tasks can be taken to work on. 
+
+Do not take Tasks with Kanban Color Gray or Orange. This is because there may be some pending items for those developments or certain issues. Developers should only take Greened tasks. 
+
+Exception: For very large developments, newer developers must talk to the Project Leader before taking them. 
 
 If the task is missing any of the above, the task will b blocked and the kanban state color will be Orange(Changes Requested).
 
@@ -132,17 +135,14 @@ Project Leader will announce new tasks in the psus-updates channel. They will pr
 **Usage notes**:
   - Stage is used for queuing all the development before a developer from technical team start working on this.
   - Usual lead time here  is 1 to 2 weeks but this may vary if we have too many things going on at once.
-
-
   - Note that requirements specification is now frozen to what has been sent to customer in email and no new change request will be accepted, and if there is a change requested before we start development then we will estimate and will start from requirements stage and will go through approval over again.
 
 **Send email or log note**:
-
   - Send to Customer: [PSUST-C01] Your request for development has been created
 
 **Responsible**:
-  - **PS Functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
-  - **PS Technical**: Developer (Assigned on task) or Project Lead
+  - **PS Functional**: BSA and BSA's Coach /  Team Leader
+  - **PS Technical**: Developer/ Project Leader
 
 **Kanban State Color**:
 
@@ -175,8 +175,8 @@ Project Leader will announce new tasks in the psus-updates channel. They will pr
   - Send to Customer: [PSUST-C02]  Your development has started
 
 **Responsible**:
-  - **PS Functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
-  - **PS Technical**: Developer (Assigned on task)
+  - **PS Functional**: BSA and BSA's Coach /  Team Leader
+  - **PS Technical**: Developer
 
 **Kanban State Color**:
 
@@ -209,7 +209,7 @@ Project Leader will announce new tasks in the psus-updates channel. They will pr
   - pr-police team members should keep an eye out for any gray kanban color tasks here as well as in discord.
 
 **Responsible**:
-  - **PS Technical**: Developer (Assigned on task) and pr-police team members
+  - **PS Technical**: Developer and pr-police team members
 
 **Kanban State Color**:
 
@@ -248,8 +248,8 @@ If there are new requests made(change requests/new spec/new requirements), this 
   - Send to Customer: [PSUST-C03]  Your development is ready for user acceptance testing (UAT)
 
 **Responsible**:
-  - **PS Functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
-  - **PS Technical**: Developer (Assigned on task)
+  - **PS Functional**: BSA and BSA's Coach /  Team Leader
+  - **PS Technical**: Developer
 
 **Kanban State Color**:
 
@@ -288,7 +288,7 @@ If there are new requests made(change requests/new spec/new requirements), this 
   - Send to Customer: [PSUST-C04] Your development has been deployed in production
 
 **Responsible**:
-  - **PS Functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS Functional**: BSA and BSA's Coach /  Team Leader
   - **PS Technical**: Project Leader
 
 
@@ -309,8 +309,8 @@ If there are new requests made(change requests/new spec/new requirements), this 
     - For any future version upgrade BSA is required to create new task in "Upgrades" with this is in reference.
 
 **Responsible**:
-  - **PS Functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
-  - **PS Technical**: Team Leader and Developer (Assigned on task)
+  - **PS Functional**: BSA and BSA's Coach /  Team Leader
+  - **PS Technical**: Team Leader and Developer
 
 **Resulting Stages**:
   - End of Life Cycle
@@ -329,7 +329,7 @@ If the Customer Requests for the Canceled task be brought back, we will move it 
   - Log note: [PSUST-LN03] Cancel development request  (Use for internal note only)
 
 **Responsible**:
-  - **PS Functional**: BSA (Reviewer on task) or Coach (Parent Task Reviewer) or Team Leader
+  - **PS Functional**: BSA and BSA's Coach /  Team Leader
   - **PS Technical**: Project Leader
 
 **Resulting Stages**:
