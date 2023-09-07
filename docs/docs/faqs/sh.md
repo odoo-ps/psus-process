@@ -52,7 +52,7 @@ There are some cases where the customer or partner manages the SH project reposi
 * Check if Github Collaborator Access needs to be requested
   * Tip: A quick way to find out if the github repository is owned by us, is to check the project name on the top right corner of the SH project. If it starts with ‘odoo-ps’, the PSUS team owns it and all of us should have access.
   * If this is not the case:
-    * Mark the task as blocked (Kanban stage **Red**) if it has been a while
+    * Mark the task as blocked (Kanban stage **Orange(Changes Requested)**) if it has been a while
     * Recommendation: Schedule an activity to follow up.
 * Tip: Another quick way to find the repo linked to the project, is to go to any of the branches on the SH project, and on it’s history you can click on any of the commits made on that branch, that’ll lead you to the commit on Github, there you can navigate to the repository itself, if you encounter a 404 error, the repo is private, and you don’t have access, sometimes they are visible but until they add you as a contributor you won’t be able to create the branch for your dev.
 

@@ -9,19 +9,6 @@ nav_order: 1
 
 
 # Service
-
-
-# How does the pipe works
-
-
-# Rules
-
-
-
-# BELOW INFO TO BE CLEANED
-
-
-## Development Requests
 - All the development requests are managed under project “PSUS - Tech Quickstart”.
   - Process Leader : Cindey([cic@Odoo.com](mailto:cic@Odoo.com)) + Ali([aal@Odoo.com](mailto:aal@Odoo.com))
 - See if development request can be avoided by:
@@ -34,6 +21,23 @@ nav_order: 1
   - Initially hours is simply estimate of hours given based on our experience for given feature(s), but a developer may end up using more or less hours.
     - The final hours that are charged to customer is based on hours spent on task (timesheets).
   - Once the task is in development the specification is frozen and no new changes(Scope Creep) are accepted, so please make sure customer review the final specification before they give it go.
+
+# Tech Quickstart Pipe Flow
+Each section is a Kanban stage of the PSUS - Tech Quickstart project. 
+See [Kanban Stages]()
+
+## Requirements(PSUS)
+
+
+
+# Rules
+
+
+
+# BELOW INFO TO BE CLEANED
+
+
+## Development Requests
 
 ### How to start development request
 - To start new development request; make a copy of the [Development Template](https://www.odoo.com/web#id=2832993&cids=3&menu_id=4720&action=333&active_id=360&model=project.task&view_type=form)
