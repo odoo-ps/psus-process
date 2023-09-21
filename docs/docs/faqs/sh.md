@@ -15,7 +15,7 @@ nav_order: 1
 
 ## Creating an Odoo-managed SH Project
 
-Do not create a new repository from the SH project creation page, always make a repository beforehand and click on "Link yo existing repo", to select your previously created repo.
+Do not create a new repository from the SH project creation page, always make a repository beforehand and click on "Link your existing repo", to select your previously created repo.
 ### Creating a repository for SH Projects
 
 1. Go to [Odoo (PS)](github.com/odoo-ps) and click on "New"
@@ -40,7 +40,8 @@ Do not create a new repository from the SH project creation page, always make a 
 
 * Go to the db’s support page: <business_url>/_odoo/support using incognito (or similar based on browser)
 * Log in using your Odoo credentials
-* Note: Don’t use: [gram@odoo.com](mailto:gram@odoo.com), just use your gram on the user field.
+* Note: Don’t use your Tri/Quadgram, just use  [tri/quadgram@odoo.com](mailto:tri/quadgram@odoo.com)on the user field.
+* If you do not have Technical Support page access to add yourself, ask your Team Lead or CIC to add you.
 * Impersonate a user with admin privileges (Users with stars).
 * Once on the project page, go to the Project settings, and under contributors add your github username.
 * Log out, and log in again in odoo.sh with your credentials, and the project should be under your username>My Projects.
@@ -49,12 +50,21 @@ Do not create a new repository from the SH project creation page, always make a 
 
 There are some cases where the customer or partner manages the SH project repository, when this is the case we won’t be able to create new development branches (Or git operations for that matter) on the project, so we need to ask for repo access to the BA of the project.
 
-* Check if Github Collaborator Access needs to be requested
+These are special cases including: 
+1. Partner Developments
+2. Legacy Customers
+   1. We will usually request the Customer to transfer ownership of the repo to PSUS due to the new ALl or Nothing policy on Repo ownership
+   2. We only allow Legacy Customers to do one last development if they will not transfer the ownership to PSUS team, however we will remove maintenance
+      1. Any issues that come up will require pack hours to resolve after this
+3. Special Case MMCs
+   1. An agreement to make an exception must be made and the customer/BSA/Account Manager/Technical Lead must be made aware
+
+* How to check if Github Collaborator Access needs to be requested
   * Tip: A quick way to find out if the github repository is owned by us, is to check the project name on the top right corner of the SH project. If it starts with ‘odoo-ps’, the PSUS team owns it and all of us should have access.
   * If this is not the case:
     * Mark the task as blocked (Kanban stage **Orange(Changes Requested)**) if it has been a while
     * Recommendation: Schedule an activity to follow up.
-* Tip: Another quick way to find the repo linked to the project, is to go to any of the branches on the SH project, and on it’s history you can click on any of the commits made on that branch, that’ll lead you to the commit on Github, there you can navigate to the repository itself, if you encounter a 404 error, the repo is private, and you don’t have access, sometimes they are visible but until they add you as a contributor you won’t be able to create the branch for your dev.
+* Tip: Another quick way to find the repo linked to the project, is to go to any of the branches on the SH project, and on its history you can click on any of the commits made on that branch, that’ll lead you to the commit on Github, there you can navigate to the repository itself, if you encounter a 404 error, the repo is private, and you don’t have access, sometimes they are visible but until they add you as a contributor you won’t be able to create the branch for your dev.
 
 ## Creating your development branch
 
@@ -149,7 +159,7 @@ If the issue is coming from a customization, fix the bug and push the changes to
 
 
 ### Tips
-* Sometimes especially when upgrading from an old version, some computed/related fields might cause performance issues if they were done incorrectly through Studio. So it is a good idea to review all these fields to check if they are stored, in case they are this value should be set to False. First double check with the BA the intention behind those fields and make the field modifications on the staging branch, let the BA know of the changes so that the customer and BA can test out functionally if everything is working as intended.
+* Sometimes especially when upgrading from an old version, some computed/related fields might cause performance issues if they were done incorrectly through Studio. So it is a good idea to review all these fields to check if they are stored, in case they are this value should be set to False. First double check with the BSA the intention behind those fields and make the field modifications on the staging branch, let the BSA know of the changes so that the customer and BA can test out functionally if everything is working as intended.
 * In case a performance issue is reported you can monitor the performance of the staging branch by going to the branch on the SH project, and clicking on the “Monitor” tab, there you will see two options;
   * Resource monitoring, where you’ll be able to visualize performance metrics such as CPU utilization, memory usage, etc…. This can be useful to debug the issue, however you can use the profiler as well.
   * Profiler: The profiler is a tool that lets you see a flame graph of all the processes running in a given period of time on the SH instance. As well as a breakdown of subprocesses of a given process. I.e if you start the profiler, and then reproduce the bug, you will be able to see the breakdown of processes all the way through the SQL calls queries to the DB, so it is easier to visualize if a process is taking too much time to execute.

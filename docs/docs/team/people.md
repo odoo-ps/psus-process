@@ -15,23 +15,26 @@ We are a team of about 60 developers, distributed in Buffalo, Mexico City and Sa
 
 ## Team members
 
-All members can easely be found in odoo.com
+All members can easily be found in odoo.com
 And the team structure is described [here](https://docs.google.com/spreadsheets/d/1rxYiBnUIzRsGxTTwclsvOEytO-R7dlCzbG3Uzn63gTc/edit?usp=sharing)
 
 ## Team Leaders
 
-San Francisco & Buffalo
+San Francisco
 - Cindey (cic)
 - Ben (bmu)
 
+Buffalo
+- John (jot)
+
 Mexico
-- Thomas (det)
+- Jesus (jefe)
 
 ## Pipelines
 
 ### PreSales
 - San Fracnciso: Ben (bmu) oversees the [US Presales pipeline](https://www.odoo.com/web#menu_id=4720&cids=1&action=333&active_id=3138&model=project.task&view_type=kanban)
-- Mexico: Thomas (det) oversees the [MX Presales pipeline](https://www.odoo.com/web#menu_id=4720&cids=1&action=333&active_id=3652&model=project.task&view_type=kanban)
+- Mexico: Jesus (jefe) oversees the [MX Presales pipeline](https://www.odoo.com/web#menu_id=4720&cids=1&action=333&active_id=3652&model=project.task&view_type=kanban)
 - Buffalo: John (jot)
 
 ### Upgrade and Maintenance
@@ -42,3 +45,4 @@ Mexico
 
 ### Tech Quickstart
 - Cindey (cic) oversees the [Quickstart pipeline](https://www.odoo.com/web#menu_id=4720&cids=1&action=333&active_id=360&model=project.task&view_type=kanban) of all offices across the Americas.
+- Ali (aal) oversees the [Quickstart pipeline](https://www.odoo.com/web#menu_id=4720&cids=1&action=333&active_id=360&model=project.task&view_type=kanban) of all offices across the Americas.
