@@ -20,35 +20,39 @@ nav_order: 3
 ## Customer Options for Saas To SH Migration
 The customer has three options if they want us to do a migration from Saas to SH platform.
 
-### Option 1: For the May 2021 Policy of SH Projects Created/Managed by the PSUS Team, the customer must agree to these conditions:
+### Option 1: Odoo Managed Odoo.sh Project
+There are two sub options you will be choosing from:
 
-```text
+### Option 1A: The PSUS Technical Team can migrate an Odoo Online(Saas) database to Odoo.sh, the customer must agree to all the conditions listed in option 1 as well as:
+- Be on an Odoo LTS Version
+
+### Option 1B: The PSUS Technical Team will create a completely New SH project without a Odoo Online(Saas) database Migration, the customer must agree to all the conditions listed under Option 1.
+But regardless of which option you pick from this category, you will be subjected to the following: 
+- Odoo.sh Project will be hosted under the ownership of the Odoo PS (Odoo Professional Services) team’s Github repository 
 - Customer will NOT have access to the SH project and Github Repository
+- To receive access to the SH project (not github), Odoo technical training must be taken and completed
 - PSUS Technical Team will maintain all aspects of the project and repository
 - Third Party Apps can NOT be installed aside from the following ecommerce apps:
-  - Shopify/Woocommerce/Magento connectors
-```
+   - Shopify/Woocommerce/Magento connectors
+   - No enhancements will be accepted to these 3PAs. Customers would need to use them as it is.
+- If a desired third party app is not included above, to be installed, a code review must be conducted with success pack hours and maintenance will be charged per line of code
+   - Odoo / Development Services Team reserve the right to refuse to install and maintain this third party app if:
+      - It requires unsupported packages (python or system) to be installed
+      - There is an unreasonable amount of code or unused code
+      -It does not meet Odoo’s coding standards and guidelines
 
-### Option 2: The PSUS Technical Team can migrate the database from Saas to SH but the customer needs to:
-
-```text
+### Option 2 : Self Managed Odoo.sh Project
+The PSUS Technical Team can Migrate the database from Odoo Online(Saas) to SH but the customer needs to:
+- Be on an Odoo LTS Version
 - Create the SH Project and Github Repository themselves
-- Provide the Saas database URL and new SH project database URL
-- Understand the PSUS Technical Team will be hands off for everything else (no custom developments, no assistance with 3PA installs, no assistance with creating/managing github, etc.)
-```
+- Provide the Odoo Online(Saas) database URL and the new SH project database URL
+- Understand the PSUS Technical Team will be hands-off for everything else (no assistance with 3PA installs, no assistance with creating/managing github, etc.)
+- Custom developments will not be done by PSUS Team
 
-### Option 3: New Creation of a SH Project owned and managed by PSUS Team. The customer must agree to these conditions:
-
-```text
-- Customer will NOT have access to the SH project and Github Repository
-- PSUS Technical Team will maintain all aspects of the project and repository
-- Third Party Apps can NOT be installed aside from the following ecommerce apps:
-  - Shopify/Woocommerce/Magento connectors
-```
 
 ## Saas to SH Migration Steps
 
-### Option 1: Saas To SH migration(Odoo Managed)
+### Option 1A: Saas To SH migration(Odoo Managed)
 
 1. Find the user’s Subscription in the Subscription App and take a screenshot of the price 
    1. If there are any automatic entries, the total might change, we need a snapshot before that happens
@@ -70,6 +74,14 @@ The customer has three options if they want us to do a migration from Saas to SH
 10. Run Scheduled Action Id=3 (or whatever looks like the subscription server ping. Click on any scheduled action and change the id in the url to 3.)
 11. Go to Subscriptions and verify that the user’s subscription is linked to one database.
 
+### Option 1B: New SH Project Creation(Odoo Managed)
+1. Set up branches in SH (production, sandbox and dev-staging). 
+   1. If the SH project is being created for the first time, follow [this](#creating-an-odoo-managed-sh-project)
+2. In the SH project make sure to drag drop the production branch to the Production stage.
+3. Run Scheduled Action Id=3 (or whatever looks like the subscription server ping. Click on any scheduled action and change the id in the url to 3.)
+4. Go to Subscriptions and verify that the user’s subscription is linked to one 
+database.
+
 ### Option 2: Saas To SH migration(Customer Managed)
 1. Find the user’s Subscription in the Subscription App and take a screenshot of the price 
    1. If there are any automatic entries, the total might change, we need a snapshot before that happens
@@ -87,14 +99,6 @@ The customer has three options if they want us to do a migration from Saas to SH
 7. Rename SH database to target name (that was freed up by the Saas DB earlier) in project settings. Try to open SH production, this may show PSOD, but wait for some time for DNS cache to update.
 8. Run Scheduled Action Id=3 (or whatever looks like the subscription server ping. Click on any scheduled action and change the id in the url to 3.)
 9. Go to Subscriptions and verify that the user’s subscription is linked to one database.
-
-### Option 3: New SH Project Creation(Odoo Managed)
-1. Set up branches in SH (production, sandbox and dev-staging). 
-   1. If the SH project is being created for the first time, follow [this](#creating-an-odoo-managed-sh-project)
-2. In the SH project make sure to drag drop the production branch to the Production stage.
-3. Run Scheduled Action Id=3 (or whatever looks like the subscription server ping. Click on any scheduled action and change the id in the url to 3.)
-4. Go to Subscriptions and verify that the user’s subscription is linked to one 
-database. 
 
 ## Existing SH to a new SH project steps
 This can happen if the customer needs to move from one SH(github) to another SH(new github) with the same subscription.
@@ -160,24 +164,9 @@ TODO
 ## Creating an Odoo-managed SH Project
 - Never create the git repo from the SH project creation screen, always prepare it beforehand and then use "link to existing repo"
 
-1. Create a new repo named `psus-companyname` owned by [odoo-ps](https://github.com/odoo-ps) (if you don’t have access, talk to Jigar).
-    1. Repo settings: Private repo, initialize with readme, and add .gitignore for Python.
-        1. copy paste into readme and update company name
-        ```
-        # Company Name (repo name)  
-        ## Branches:  
-        - SH Production Branch: **_production_**
-        - Sh Staging (You can only have three staging branches):
-          - 1st staging Branch: **_sandbox_**
-          - 2nd staging Branch: **_dev-staging_**
-        - Development (You can have as many development branches as you like):
-          - 1st Development Branch: \*\*\*\*  
-        ## Code of Conduct  
-        - **IMPORTANT : DO NOT COMMIT anything in the _production_ branch, because _production_ is _Production Instance_**
-        - If you want to start development branch fork new branch form _production_ or _staging_ branches and and SH will automatically start new development build.
-        ```
-2. Go to Settings/Collaborators/Add Team and add PSUS (US PSUS Team), give them “admin” access.
-3. In the master branch add requirements.txt (can be empty to start with), copy over contents into readme.md.
+1. Create a new repository named `psus-companyname` owned by [odoo-ps](https://github.com/odoo-ps) (if you don’t have access, talk to Jigar).
+    1. Use [this](https://github.com/odoo-ps/psus-sh-template) template to create a new repository.
+2. Go to Settings/Collaborators/Add Team and add PSUS (odoo-ps/psus), give them “admin” access.
 4. Add the BSA only to the sh-project(customer should not have access to either SH or Github)
 
 ## Migrating Imported Modules
