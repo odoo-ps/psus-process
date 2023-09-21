@@ -154,8 +154,8 @@ Tasks that can be done by the functional consultant. Functional consultants shou
 # Development
  Should be done by Odoo’s technical team
 
-- SaaS Customers: there is a cap of 15 hours for developments. These should be simple developments (New PDF reports, modifying existing reports, new views, etc. Anything related to QWEB or MX Addenda), the technical team will evaluate if the development is feasible in SaaS.
-- Odoo.sh Customers: No hour cap. If an integration is needed please refer to this document [Integrations](integrations doc).
+- SaaS Customers: These should be simple developments (New PDF reports, modifying existing reports, new views, etc. Anything related to QWEB or MX Addenda), the technical team will evaluate if the development is feasible in SaaS.
+- Odoo.sh Customers: If an integration is needed please refer to this document [Integrations](integrations doc).
 
 Note: As a company policy if any development is done, internally (with Odoo) or externally (by the customer), the customer will be charged maintenance, make sure you make the customer aware of this to avoid any future conflict.
 

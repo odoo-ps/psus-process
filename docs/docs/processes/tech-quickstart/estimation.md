@@ -27,27 +27,27 @@ Starting January 1st 2023, we will use the ps-tool to estimate tasks and provide
 As the PSUS team, we will also charge the customer for any time taken to do the estimate. This means the analysis time will be logged directly on the development task even before it is approved. If the customer wants an estimate, they will need to use pack hours. The task must have at least 10 hours to begin the estimation, the project leader will check for this first.
 This also means that we must be more precise when we are doing the estimation. There is much less room for error since we will be using pack hours to estimate the task.  
 
-Watch this [video](https://drive.google.com/file/d/19hoLmJC67dl5uTVSuOiT0BdnjAoCBgNs/view) on the demo Jigar did for the ps-tool.
+Watch this [video](https://drive.google.com/file/d/19OjIDF5pjvENwgF3uDY-9LKDdEt-f2OE/view) on the demo Ali did for the ps-tool.
 
 If you do not have access to the tool here: [PS-Tool](https://ps-tools.odoo.com/), please reach out to JAM. 
 
 #### Base Estimation
 
-| Type                            |  Hours  | Notes                         |
-|---------------------------------|:-------:|-------------------------------|
-| Compute Field                   |   2+    | Includes associated method(s) |
-| Non-compute Field               |   1+    |                               |
-| New PDF Report                  |   12    |                               |
-| Labels (printed)                |  6-12   | Depends on complexity.        |
-| Financial Report (SQL/HTML)     |  16-24  | New or Modifying              |
-| Views: Form/List                |    2    |                               |
-| Views: Gantt/Calendar/Graph/etc |    4    |                               |
-| Views: Kanban                   |    6    |                               |
-| Cron                            |    8    | Each                          |
-| Statistical View                |   20    | Each                          |
-| Mexican Addenda                 |  4-16+  |                               |
-| Smart Button                    |   2+    | Per Button                    |
-| Constraint                      |   2+    |                               |
+| Type                         | Hours | Notes                         |
+|------------------------------|:-----:|-------------------------------|
+| Compute Field                |  2+   | Includes associated method(s) |
+| Non-compute Field            |  1+   |                               |
+| New PDF Report               |  8+   |                               |
+| Labels (printed)             |  8+   | Depends on complexity.        |
+| Financial Report (SQL/HTML)  | 16-24 | New or Modifying              |
+| Views: Form/List             |   2   |                               |
+| Views: Graph/etc             |   4   |                               |
+| Views: Gantt/Calendar/Kanban |  6+   | Might involve Javascript      |
+| Cron(Server Action)          |   8   | Each                          |
+| Statistical View             |  20   | Each                          |
+| Mexican Addenda              | 4-12+ |                               |
+| Smart Button                 |  2+   | Per Button                    |
+| Constraint                   |  2+   |                               |
 
 #### Business Logic
 
@@ -64,30 +64,30 @@ A lot of business logic really depends on your own judgment.  Here are some gene
 
 | Type          | Hours | Notes           |
 |---------------|:-----:|-----------------|
-| Group         |   2   | New or Existing |
+| Group         |   1   | New or Existing |
 | Record Rules  |   2   |                 |
 | Access Rights |   1   |                 |
 
-#### Data Import
+#### Data Import(Script)
 
 | Type       | Hours | Notes           |
 |------------|:-----:|-----------------|
 | Object     |   8   |                 |
 | Sub-Object |   4   |                 |
 
-#### Data Deletion/Cleanup
+#### Data Deletion/Cleanup(Script)
 
 | Type   | Hours | Notes      |
 |--------|:-----:|------------|
 | Object |   4   | Per Object |
 
-#### EDI (WIP this is going to be updated, talk to CIC if you have questions)
+#### EDI (TALK TO BMU/DIPA)
 
-| Type                           | Hours | Notes                                                                                                                                                                                    |
-|--------------------------------|:-----:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SFTP/FTP                       |  6+   | Depends on the provider for the SFTP/FTP                                                                                                                                                 |
-| Model (Document) Export/Import |  6+   | 6 hours is based on if the model information being exported/imported does not require additional modification. Any calculations or logic added before transfer increases estimation time |
-| Testing EDI                    |  10+  | for back and forth testing, depending on how many docs, number of trading partners etc.                                                                                                  |
+| Type                           | Hours | Notes                                                                                   |
+|--------------------------------|:-----:|-----------------------------------------------------------------------------------------|
+| SFTP/FTP                       |   X   | Depends on the provider for the SFTP/FTP                                                |
+| Model (Document) Export/Import |   X   |                                                                                         |
+| Testing EDI                    |   X   | for back and forth testing, depending on how many docs, number of trading partners etc. |
 
 #### Other
 
@@ -219,8 +219,8 @@ Starting January 1st 2023, we now timesheet all the time spent on Analysis(worki
 4. Use this Guide to do an Estimation + PS tool. 
    1. Use the New ps-tool to do the estimation
       1. https://ps-tools.odoo.com/web#cids=4&home=
-   2. Video recording of how to use the tool - Team Meeting
-      1. https://drive.google.com/file/d/19hoLmJC67dl5uTVSuOiT0BdnjAoCBgNs/view
+   2. Video recording of how to use the tool by AAL - Team Meeting
+      1. https://drive.google.com/file/d/19OjIDF5pjvENwgF3uDY-9LKDdEt-f2OE/view
 5. Calculate the LOC with the formula(see formula section above in this doc). 
 6. Note if the development Requires an Odoo Managed SH project or if Saas is okay.
    1. Remember: Only QWeb and Mexican Addendas are allowed on Saas database. Otherwise, SH is required. 

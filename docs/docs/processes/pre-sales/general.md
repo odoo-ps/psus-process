@@ -18,8 +18,6 @@ nav_order: 1
 
 
 
-# BELOW INFO TO BE CLEANED
-
 
 
 - All pre sales requests are managed under project “PSUS - PreSales”.
@@ -34,7 +32,7 @@ nav_order: 1
 - Slows down QuickStart project implementation
 - Development creates a delay in upgrade
 
-### How to get a quote of developmet during Pre-Sales
+### How to get a quote of development during Pre-Sales
 - Make a copy of the following template task : [[TRIGRAM] Prospect Name : Requirements Short Title (Make copy of this)](https://www.odoo.com/web#id=2260536&cids=3&menu_id=4720&action=333&active_id=3138&model=project.task&view_type=form)
 - Or send a direct email to  “[psus-presales@mail.odoo.com](mailto:psus-presales@mail.odoo.com)”
 - Smart button on sales lead
