@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  How does it work?
-permalink: /docs/process/pre-sales/general
+permalink: /docs/project/pre-sales/general
 parent: Pre-sales
-grand_parent: Process
+grand_parent: Project
 nav_order: 1
 ---
 
@@ -21,8 +21,8 @@ nav_order: 1
 
 
 - All pre sales requests are managed under project “PSUS - PreSales”.
-  - Process Leader Technical: Ben ([bmu@odoo.com](mailto:bmu@odoo.com))
-  - Process Leader Functional: Massiel ([mac@odoo.com](mailto:mac@odoo.com))
+  - Project Leader Technical: Ben ([bmu@odoo.com](mailto:bmu@odoo.com))
+  - Project Leader Functional: Massiel ([mac@odoo.com](mailto:mac@odoo.com))
 - Customization and Development is not same at Odoo
 - Get a quote of possible developments early and set expectation in sales
 - All developments will require Odoo.sh

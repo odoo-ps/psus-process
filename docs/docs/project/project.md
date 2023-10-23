@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Process
+title: Project
 nav_order: 3
 has_children: true
-permalink: /docs/process/
+permalink: /docs/project/
 ---
 
-# Process
+# Project

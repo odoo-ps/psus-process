@@ -1,11 +1,19 @@
 ---
 layout: post
 title:  "SaaS or SH"
-permalink: /docs/process/qs/saas-or-sh/
+permalink: /docs/project/qs/saas-or-sh/
 parent: Tech Quickstart
-grand_parent: Process
+grand_parent: Project
 nav_order: 4
 ---
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # What we can develop in SaaS, SH and On Premise
 

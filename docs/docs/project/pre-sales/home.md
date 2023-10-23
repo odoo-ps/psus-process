@@ -2,9 +2,9 @@
 layout: default
 title: Pre-sales
 nav_order: 4
-parent: Process
+parent: Project
 has_children: true
-permalink: /docs/process/pre-sales
+permalink: /docs/project/pre-sales
 ---
 
 # Pre-sales

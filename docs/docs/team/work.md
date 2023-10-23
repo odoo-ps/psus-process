@@ -17,15 +17,15 @@ A general introduction to our services can be found [here](https://docs.google.c
 
 ## Services we provide
 
-1. [Pre-Sales](../processes/pre-sales/home.md)
+1. [Pre-Sales](../project/pre-sales/home.md)
    - Presales technical support refers to technical advice or estimate related activities that occur bedore sale has been closed
-2. [Upgrade & Maintenance](../processes/maintenance/home.md)
+2. [Upgrade & Maintenance](../project/maintenance/home.md)
    - Upgrade refers to upgrading customer's instance/database from version A to version B
    - Migration refers to process of moving customer from their old software solution to new software solution, i.e. moving customer from Quickbooks to Odoo. Upgrade is not equal to Migration
    - Maintenance refers to the process of fixing dev for which the customer is paying maintenance.
-3. [Technical Support](../processes/tech-support/home.md)
+3. [Technical Support](../project/tech-support/home.md)
    - Technical Support allows a customer/partner to use Success Packs hours to get technical consulting with Development Services Team
-4. [Quickstart Development](../processes/tech-quickstart/home.md)
+4. [Quickstart Development](../project/tech-quickstart/home.md)
    - Quickstart refers to any development we realise for the client.
 
 

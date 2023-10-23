@@ -2,9 +2,9 @@
 layout: default
 title: Maintenance
 nav_order: 3
-parent: Process
+parent: Project
 has_children: true
-permalink: /docs/process/maintenance
+permalink: /docs/project/maintenance
 ---
 
 # Maintenance

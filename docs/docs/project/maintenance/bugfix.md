@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Bug-Fix
-permalink: /docs/process/maintenance/bugfix
+permalink: /docs/project/maintenance/bugfix
 parent: Maintenance
-grand_parent: Process
+grand_parent: Project
 nav_order: 3
 ---
 

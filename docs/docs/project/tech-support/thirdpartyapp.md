@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Third party app"
-permalink: /docs/process/support/3pa/
+permalink: /docs/project/support/3pa/
 parent: Tech Support
-grand_parent: Process
+grand_parent: Project
 nav_order: 2
 ---
 

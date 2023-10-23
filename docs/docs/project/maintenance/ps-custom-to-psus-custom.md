@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  GitHub Repo Transfer
-permalink: /docs/process/maintenance/ps-custom-to-psus-custom
+permalink: /docs/project/maintenance/ps-custom-to-psus-custom
 parent: Maintenance
-grand_parent: Process
+grand_parent: Project
 nav_order: 2
 ---
 

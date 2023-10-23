@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Estimation
-permalink: /docs/process/qs/estimation
+permalink: /docs/project/qs/estimation
 parent: Tech Quickstart
-grand_parent: Process
+grand_parent: Project
 nav_order: 5
 ---
 
