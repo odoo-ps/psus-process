@@ -22,10 +22,10 @@ nav_order: 6
 
 For example, the development is 10:00 hours with 70% estimation reliability. This means that it can be +/- 30% of hours, so max would be 3:00 hours additional to the original estimation(total 13:00 Hours max). In this scenario you currently have timesheeted 13:00 hours and the development is not completed yet.
 
-1. Stop working on the task immediately and block the task 
+1. **Stop working on the task immediately and block the task** 
 2. Assess why the development is not complete. If the reason is:
    1. Scope Creep (New Requirements)
-      1. See the Scope Creep FAQ bellow
+      1. See the Scope Creep FAQ below
    2. Change Request
       1. See [[Change Request Doc]({{ site.url }}{% link docs/project/tech-quickstart/change_request.md %})] and give an estimation
    3. Initial estimation was underestimated

@@ -11,9 +11,11 @@ nav_order: 1
 
 # Services
 - [Bug-Fix](bugfix)
-- [Code Upgrade](upgrade-process-technical.md)
-- [Code Reviews](code-review.md)
-- [Upgrade Issues]
+- [Upgrade Process Functional](upgrade-process-functional)
+- [Upgrade Process Technical](upgrade-process-technical)
+- [Custom Code Upgrades](upgrades)
+- [Code Reviews](code-review)
+
 ## Upgrade vs Migration
 
 | Upgrade | Migration |

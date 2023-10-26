@@ -4,7 +4,7 @@ title:  Upgrade Process[Functional]
 permalink: /docs/project/maintenance/upgrade-process-functional
 parent: Maintenance
 grand_parent: Project
-nav_order: 2
+nav_order: 4
 ---  
 # Upgrade Process 
 
@@ -22,7 +22,16 @@ nav_order: 2
 8. Report any issues post production upgrade via odoo support.  
   ![Post Upgrade Issue](post_upgrade_issue.png)
 
-  
+## Upgrade Process by Deployment  
+
+- **Saas(Odoo Online)**
+  - [My Database Page](https://www.odoo.com/documentation/16.0/administration/upgrade/odoo_online.html)
+  - [\_odoo/support](https://drive.google.com/file/d/18cO7WjVaCy6Wag6Jo1TmpJEJL5qvoO0_/view?usp=sharing)
+- **SH**
+  - [Upgrade Feature](https://www.odoo.com/documentation/16.0/administration/upgrade/odoo_sh.html)
+  - [upgrade.odoo.com](https://upgrade.odoo.com/)
+- **[On-Premise](https://www.odoo.com/documentation/16.0/administration/upgrade/on_premise.html)**
+
   
   ![Upgrade Process ](upgrade_process.png)  
 
