@@ -35,7 +35,7 @@ Move the task back to Tech Review Stage. Developer who did the Estimation needs 
 Move the task back to Tech Review Stage. Development should not have been started yet. Even if the customer has approved the original development, if they are asking for additional spec we need to re-estimate it. Here the hours may increase or decrease depending on what was changed. 
 
 ### Development & Code Review & UAT
-Stop working on the task and block it, estimate any changes they are asking for.  Get the additional hours approved before continuing the task with the new changes. The BSA needs to provide confirmation either by a log note or image of the customer approving. If customer does not approve the additional hours, we can either continue with the original estimated spec or cancel the development.
+Stop working on the task and block it, estimate any changes they are asking for.  Get the additional hours approved in writing before continuing the task with the new changes. The BSA needs to provide written confirmation in the task(usually in the form of an email screenshot). If customer does not approve the additional hours, we can either continue with the original estimated spec(no changes) or cancel the development.
 
 ### Deployed & Done
 New Task needs to be created, we do not make changes to any task that has been deployed in production.
@@ -56,4 +56,5 @@ For tracking the developer **must**:
       [CIC] 8:00 Hours ( ~100 LOC) 
    ```  
 
-## 
+## If there is any push back or issues from the customer:
+Escalate to the Project Leader. 
