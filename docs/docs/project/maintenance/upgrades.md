@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Custom Code Upgrades
-permalink: /docs/process/maintenance/upgrades
+permalink: /docs/project/maintenance/upgrades
 parent: Maintenance
-grand_parent: Process
+grand_parent: Project
 nav_order: 3
 ---
 

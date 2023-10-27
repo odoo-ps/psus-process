@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  How does it work?
-permalink: /docs/process/maintenance/general
+permalink: /docs/project/maintenance/general
 parent: Maintenance
-grand_parent: Process
+grand_parent: Project
 nav_order: 1
 ---
 # Project : PSUS - Maintenance

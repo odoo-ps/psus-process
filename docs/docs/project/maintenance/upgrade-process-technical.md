@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Upgrade Process[Technical]
-permalink: /docs/process/maintenance/upgrade-process-technical
+permalink: /docs/project/maintenance/upgrade-process-technical
 parent: Maintenance
-grand_parent: Process
+grand_parent: Project
 nav_order: 5
 ---
 ![Upgrade Steps](upgrade_technical_steps.png)

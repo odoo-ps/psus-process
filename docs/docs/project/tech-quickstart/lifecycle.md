@@ -1,11 +1,19 @@
 ---
 layout: post
 title:  "Kanban Stages"
-permalink: /docs/process/qs/lifecycle/
+permalink: /docs/project/qs/lifecycle/
 parent: Tech Quickstart
-grand_parent: Process
+grand_parent: Project
 nav_order: 2
 ---
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # Kanban Stages
 

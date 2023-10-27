@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  Bug-Fix
-permalink: /docs/process/maintenance/bugfix
+permalink: /docs/project/maintenance/bugfix
 parent: Maintenance
-grand_parent: Process
-nav_order: 2
+grand_parent: Project
+nav_order: 3
 ---
 
 ## Bug-Fix

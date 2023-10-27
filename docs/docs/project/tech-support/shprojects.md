@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Odoo.sh Migration"
-permalink: /docs/process/support/sh-migration/
+permalink: /docs/project/support/sh-migration/
 parent: Tech Support
-grand_parent: Process
+grand_parent: Project
 nav_order: 3
 ---
 

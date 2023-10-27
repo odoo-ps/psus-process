@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Upgrade Process[Functional]
-permalink: /docs/process/maintenance/upgrade-process-functional
+permalink: /docs/project/maintenance/upgrade-process-functional
 parent: Maintenance
-grand_parent: Process
+grand_parent: Project
 nav_order: 4
 ---  
 # Upgrade Process 

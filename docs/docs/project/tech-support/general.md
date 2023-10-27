@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  How does it work?
-permalink: /docs/process/support/general
+permalink: /docs/project/support/general
 parent: Tech Support
-grand_parent: Process
+grand_parent: Project
 nav_order: 1
 ---
 
@@ -22,7 +22,7 @@ nav_order: 1
 
 ### Technical Support (Paid)
 - Technical support requests are managed under project “PSUS - Technical Support”.
-  - Process Leader : Brian ([brc@odoo.com](mailto:brc@odoo.com))
+  - Project Leader : Brian ([brc@odoo.com](mailto:brc@odoo.com))
 - **Technical support covers**:
   - Technical paid (success pack hours) support for partner/customers.
   - Code Review(answering specific development related questions and code profiling (technical only)).
@@ -117,7 +117,7 @@ Pay attention to the following:
 
 1. Each task must have Sale Order Line, Parent Task, and Subscription fields set on the tab “Extra Info”.
    - The Sale Order Line is the most important, without that we are not billing the customer.
-2. The Process Leader will review and ask the consultant/ticket creator to fill out the information but please double check your ticket in case.
+2. The Project Leader will review and ask the consultant/ticket creator to fill out the information but please double check your ticket in case.
 
 
 ## Stages
@@ -148,7 +148,7 @@ Pay attention to the following:
 1. Any task that is canceled by the customer or consultant.
 2. Task can be moved back to Requirements/Development if the customer wants/approves the task again to be worked on.
    - Must be originally canceled by the customer/consultant
-   - If canceled by the process leader, please speak to them first.
+   - If canceled by the project leader, please speak to them first.
 
 ## Paid Technical Support
 ### Technical Support Content
@@ -173,14 +173,12 @@ Pay attention to the following:
    - Priority Technical Ticket Request
      - Either approaching Lead Time
      - or Blocking customer/Urgent
-3. Purple
-   - Change Request Ticket Request
 
 ##### States:
 1. Green
    - Ready for Assignment
 2. Grey
-   - Unapproved/reviewed by Process Leader
+   - Unapproved/reviewed by Project Leader
    - Still can be assigned/taken but a note may be missing info
 3. Red
    - Blocked for any reason that stops the task from moving forward
@@ -195,9 +193,7 @@ Pay attention to the following:
    - Tag for technical emails
 4. Spanish
    - Tag for Spanish Speaking Requests
-   - (Process Leader will try to add if the consultant did not already)
-5. Change Request
-   - Tag for any change requests to existing development
+   - (Project Leader will try to add if the consultant did not already)
 
 Note: If the ticket is not created by duplicating the templates, tags may not be accurate or even on the task.
 
@@ -209,7 +205,7 @@ Feel free to add any other tags or remove them if they do not apply to the ticke
 2. With the exception of Spanish speaking Calls/Email requests.
 3. The oldest or urgent request must be picked first.
    - These are usually the Blue Kanban Cards.
-4. The Process Leader may ask the team to prioritize tasks that are either urgent or have been waiting in the Requirements Stage for a long time.
+4. The Project Leader may ask the team to prioritize tasks that are either urgent or have been waiting in the Requirements Stage for a long time.
    - If they are not taken they will be assigned based on work load if it reaches the lead time deadline.
 
 ## General Technical Support Tips
@@ -262,7 +258,7 @@ This may include:
 4. Anything unacceptable in an office environment
 5. Etc.
 
-Please notify the Process Leader, Jigar(jam), or their Consultant as soon as you notice any negative behaviors. If there are also any disagreements please let us know. Even if it is a small issue, we want to make sure you are being treated with respect.
+Please notify the Project Leader, Jigar(jam), or their Consultant as soon as you notice any negative behaviors. If there are also any disagreements please let us know. Even if it is a small issue, we want to make sure you are being treated with respect.
 We will raise the issue with the Account Manager/Sales Person to correctly set expectations with the customer.
 
 #### Call vs Email Format
