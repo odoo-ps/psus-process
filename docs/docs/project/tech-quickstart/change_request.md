@@ -47,6 +47,8 @@ Ask the Project Leader to move the task back to Requirements. Whole quickstart p
 If the change request estimate is estimated for over 8 hours, all developers must get approval/reviewed by the Project Leader(ping AAL on the task and ask for a review, ping CIC if AAL is not available). This is to make sure we are accurate on the change request estimate and that it is something we want to be doing. 
 
 ## If Change Request Estimate is approved
+For tracking the BSA **must** update the development specifications. Have the BSA add the new points, add new UAT cases and highlight everything(either in a color highlight or color font, like red or yellow). This way it is very clear what is different from the original spec. This is extremely helpful for the upgrade team in the future. 
+
 For tracking the developer **must**: 
 1. Update the Allocated Hours to be initial estimate + additional change request estimate
 2. Update the description under the original estimate with the additional estimate

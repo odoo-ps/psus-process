@@ -71,7 +71,8 @@ Scope creep is anything that the customer asks for that is not in the original s
 5. If the customer Approves the Estimate
    1. Confirm we have written approval from the customer(usually a screenshot)
       1. Do not continue until we have written approval
-   2. For tracking the developer **must**: 
+   2. For tracking the BSA **must** update the development specifications. Have the BSA add the new points, add new UAT cases and highlight everything(either in a color highlight or color font, like red or yellow). This way it is very clear what is different from the original spec. This is extremely helpful for the upgrade team in the future. 
+   3. For tracking the developer **must**: 
       1. Update the Allocated Hours to be initial estimate + additional change request estimate
       2. Update the description under the original estimate with the additional estimate
          1. Example: 
@@ -79,7 +80,7 @@ Scope creep is anything that the customer asks for that is not in the original s
             [CIC] 20:00 Hours (Odoo Managed SH Required / ~300 LOC)
             [CIC] 8:00 Hours ( ~100 LOC) 
          ```
-   3. Then continue the Development
+   4. Then continue the Development
 6. If the customer does not approve the Estimate
    1. Ask if the customer wants to continue the Original Development
    2. Or if they want to cancel the Development
