@@ -10,17 +10,17 @@ nav_order: 5
 ### First step is to find the code of the project depending of the platform  
   
   
-* **[SAAS]**
+* **SAAS**
 
   * The code should either be on [odoo-ps/psus-custom](https://github.com/odoo-ps/psus-custom) or [odoo/ps-custom](https://github.com/odoo/ps-custom)
-  * Look for a branch with the version and name of the customer (there might be more than one branch for the same customer)
+  * Look for a branch with the version and name of the customer (there might be more than one branch for the same customer).
   * The code for the modules might also be in more than one branch (there could be one branch per module)
   * If the code is in more than one branch, keep the latest code of every particular module. **ADVISE:** Merge them into one unique branch for that customer in that version.
   * For upgrades from SAAS to SAAS:
     If the branch is on **/odoo/ps-custom** move it to **/odoo-ps/psus-custom**.Example on how to do it [here](/psus-process/faqs/github/).
 
 * **[SH]**
-  * The code should be on a repo in <strong>https://github.com/odoo-ps</strong>
+  * The code should be on a repo in <strong>https://github.com/odoo-ps</strong> Organization
   * You can find it on the Odoo SH project page.
   * For projects moved from SAAS to SH without migrating their modules, some/all of the code could still be on [odoo-ps/psus-custom](https://github.com/odoo-ps/psus-custom) or [odoo/ps-custom](https://github.com/odoo/ps-custom)
 > **Recommendations**
@@ -35,22 +35,34 @@ nav_order: 5
 2. **Gather all the information about the project.**
     * Get details of SH/Saas instance.
     * Gather all the development tasks for the customer.
+      * It should be available on the Upgrade Project task description.
     * Understand functional requirements. Figure out what has been added in standard.
-    * Request access to GitHub repo of project in case of **SH**.
 3. **Request upgraded database.**
     * Check the upgrade request status on https://upgrade.odoo.com for customer using
       their enterprise code.
     * If the request process done successfully. Download it.
     * This should not be stopping you from performing step 4.
-4. **Install custom module(s) on empty database.**
+4. Create a new branch to work in (Could be one branch per module to upgrade)
+    * For SAAS: Create a new branch in psus-customs from the customer's branch found earlier.
+        * e.g. <version>-<customer_name>-<upgrade>-<gram> Like: 15.0-dexcentinc-upgrade-kga
+    * For SH: Create a new branch in customer's respective github repository in odoo-ps
+        * e.g. <version>-<upgrade>-<gram> or <version>-<upgrade>-<module>-<gram>. Like: 15.0-upgrade-kga
+4. **Install custom module(s) on EMPTY DATABASE.**
     1. Make a template of your db with all required modules installed. (Will help you save time during numerous drop/create).
-        * Sample command: `createdb mydb_template -T db_template`
+        * Find all standard modules required by your custom project (e.g. via manifestoo)
+        * Create odoo db in the desired version with required std modules installed
+        * Sample command: `createdb <new_db_to_test_against> -T <new_db_template>`
     2. Check __manifest__ file:    
-        * Replace description with summary.
-        * Add/Remove dependencies based on the changes in new version.
+
         * Upgrade module version.
             > Version convention: MODULE_MAJOR.MODULE_MINOR.BUGFIX. <br/>
             > Example change: 1.0.0 -> 1.**1**.0
+        * Add/Remove/Change dependencies based on the changes in new version.
+        * Replace description with summary.
+        * If not present add:
+            * "author": "Odoo Inc"
+            * "license": "OPL-1"
+            * "website": "https://www.odoo.com"
     3. Saas to SH code migration:
         1.  Convert fields and models from XML to PY.
             * Create a _model.py_ file for every new model or standard model that has fields added.
