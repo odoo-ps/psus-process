@@ -44,15 +44,15 @@ nav_order: 5
             * Explain customer that in order to start test upgrade you will have to delete the given staging branch.
               Which means their existing data/configuration will be lost.
         * Upon confirmation delete the staging and create a new staging from production.
-            * Branch name format: <target_version>-test-upgrade
+            * Branch name format: {target_version}-test-upgrade
                 * e.g. 17.0-test-upgrade
             * Start the upgrade process from the Upgrade tab right after creating. No need to wait for the branch to build.
 4. **Create a new branch to work in (Could be one branch per module to upgrade)**
     * For SAAS: Create a new branch in psus-customs from the customer's branch found earlier.
-        * e.g. <version>-<customer_name>-<upgrade>-<gram> Like: 15.0-dexcentinc-upgrade-kga
+        * e.g. {version}-{customer_name}-{upgrade}-{gram} Like: 15.0-dexcentinc-upgrade-kga
     * For SH: Create a new branch in Development section on customer's SH.
         * Branch should be created using the above newly created staging as a base.
-        * e.g. <version>-<upgrade>-<gram> or <version>-<upgrade>-<module>-<gram>. Like: 15.0-upgrade-custom_sale_report-kga
+        * e.g. {version}-{upgrade}-{gram} or {version}-{upgrade}-{module}-{gram}. Like: 15.0-upgrade-custom_sale_report-kga
         * If multiple branch needed, all should follow the same rule mentioned above.
 4. **Install custom module(s) on EMPTY DATABASE.**
     1. Make a template of your db with all required modules installed. (Will help you save time during numerous drop/create).
