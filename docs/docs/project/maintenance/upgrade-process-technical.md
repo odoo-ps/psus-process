@@ -38,15 +38,22 @@ nav_order: 5
       * It should be available on the Upgrade Project task description.
     * Understand functional requirements. Figure out what has been added in standard.
 3. **Request upgraded database.**
-    * Check the upgrade request status on https://upgrade.odoo.com for customer using
-      their enterprise code.
-    * If the request process done successfully. Download it.
-    * This should not be stopping you from performing step 4.
-4. Create a new branch to work in (Could be one branch per module to upgrade)
+    * For SAAS: Request a test upgrade from _odoo/support
+    * For SH: Start the upgrade process on staging.
+        * Confirm with customer or BSA(if available) which staging to use for test upgrade purpose.
+            * Explain customer that in order to start test upgrade you will have to delete the given staging branch.
+              Which means their existing data/configuration will be lost.
+        * Upon confirmation delete the staging and create a new staging from production.
+            * Branch name format: <target_version>-test-upgrade
+                * e.g. 17.0-test-upgrade
+            * Start the upgrade process from the Upgrade tab right after creating. No need to wait for the branch to build.
+4. **Create a new branch to work in (Could be one branch per module to upgrade)**
     * For SAAS: Create a new branch in psus-customs from the customer's branch found earlier.
         * e.g. <version>-<customer_name>-<upgrade>-<gram> Like: 15.0-dexcentinc-upgrade-kga
-    * For SH: Create a new branch in customer's respective github repository in odoo-ps
-        * e.g. <version>-<upgrade>-<gram> or <version>-<upgrade>-<module>-<gram>. Like: 15.0-upgrade-kga
+    * For SH: Create a new branch in Development section on customer's SH.
+        * Branch should be created using the above newly created staging as a base.
+        * e.g. <version>-<upgrade>-<gram> or <version>-<upgrade>-<module>-<gram>. Like: 15.0-upgrade-custom_sale_report-kga
+        * If multiple branch needed, all should follow the same rule mentioned above.
 4. **Install custom module(s) on EMPTY DATABASE.**
     1. Make a template of your db with all required modules installed. (Will help you save time during numerous drop/create).
         * Find all standard modules required by your custom project (e.g. via manifestoo)
