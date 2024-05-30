@@ -67,7 +67,8 @@ nav_order: 5
         * Add/Remove/Change dependencies based on the changes in new version.
         * Replace description with summary.
         * If not present add:
-            * "author": "Odoo Inc"
+            * "author": "Odoo Development Services" (only in case of odoo developed module)
+            * "maintainer": "Odoo Development Services"
             * "license": "OPL-1"
             * "website": "https://www.odoo.com"
     3. Saas to SH code migration:
